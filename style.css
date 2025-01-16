@@ -1,0 +1,40 @@
+/* Estilos básicos */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background-color: #fdb140;
+}
+
+/* Encabezado */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+/* Navegación */
+nav ol {
+    list-style: none;
+    padding: 0;
+}
+
+nav ol li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+nav ol li a {
+    color: #fdb140;
+    text-decoration: none
+}
+
+section {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 80%;
+    background-color: aliceblue;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1)
+}
